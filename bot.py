@@ -1,5 +1,5 @@
 # -*- coding: utf8 -*-
-#976898060:AAH8vZkf9ur5bsrRoI-k7MCBF4qrzpPZ8q8 -  token
+
 import telebot
 import os
 from telebot import types
