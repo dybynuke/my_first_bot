@@ -15,6 +15,13 @@ d = ["[8:00] Основы цифровой миклоэлектронники(А
 token = os.environ.get('bot_token')
 bot = telebot.TeleBot(str(token));
 
+@bot.message_handler(commands=['start', 'help'])
+def start_1(message):
+	if message.text == '/help':
+		bot.send_message(message.from_user.id, 'При повторном запросе можно сразу забивать день недели.\nЕсли это только знакомство стоит прописать команду /start для знакомтсва с ботом');
+	elif message.text == '/start':
+		bot.send_message(message.from_user.id, 'Для работы с ботом поприветствую его!\n(Привет, привет, салам, хай)');
+
 @bot.message_handler(content_types=['text'])
 def start(message):
 	if message.text == 'привет' or message.text == 'Привет':
@@ -25,8 +32,6 @@ def start(message):
 		keyboard.add(key_no);
 		question = 'Привет, хочешь узнать расписание?';
 		bot.send_message(message.from_user.id, text=question, reply_markup=keyboard)
-	elif message.text == '/help':
-		bot.send_message(message.from_user.id, 'Для того, чтоб начать работу с ботом - поздоровайся\nНапример так: "Привет"');
 	elif message.text == 'понедельник' or message.text == "Понедельник":
 		bot.send_message(message.from_user.id, a)
 	elif message.text == 'вторник' or message.text == "Вторник":
@@ -35,14 +40,18 @@ def start(message):
 		bot.send_message(message.from_user.id, c)
 	elif message.text == 'пятница' or message.text == "Пятница":
 		bot.send_message(message.from_user.id, d)
+	elif message.text == 'четверг' or message.text == "Четверг":
+		bot.send_message(message.from_user.id, "Военная кафедра!")
+	elif message.text == 'суббота' or message.text == "Суббота" or message.text == "Воскресенье" or message.text == "воскресенье":
+		bot.send_message(message.from_user.id, "Выходной день! Отдыхай!")
 	else:
-		bot.send_message(message.from_user.id, 'Извини, я тебя не понимаю. Напиши /help');
+		bot.send_message(message.from_user.id, 'Извини, я тебя не понимаю. Напиши /start');
 
 @bot.callback_query_handler(func=lambda call: True)
 def callback_worker(call):
 		if call.data == "yes":
 			...
-			bot.send_message(call.message.chat.id, 'Введите день недели: ')
+			bot.send_message(call.message.chat.id, 'Введи день недели: ')
 
 		else:
 			...
