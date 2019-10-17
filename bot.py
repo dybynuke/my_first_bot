@@ -35,7 +35,7 @@ def start(message):
 	elif message.text == 'понедельник' or message.text == "Понедельник":
 		bot.send_message(message.from_user.id, a)
 	elif message.text == 'Кто создатель?' or message.text == "кто создатель?":
-		bot.send_message(message.from_user.id, d)
+		bot.send_message(message.from_user.id, "Создатель этого бота студент группы ИС-1705\nБарков Вадим")
 	elif message.text == 'вторник' or message.text == "Вторник":
 		bot.send_message(message.from_user.id, b)
 	elif message.text == 'среда' or message.text == "Среда":
