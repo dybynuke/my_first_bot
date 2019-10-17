@@ -18,13 +18,13 @@ bot = telebot.TeleBot(str(token));
 @bot.message_handler(commands=['start', 'help'])
 def start_1(message):
 	if message.text == '/help':
-		bot.send_message(message.from_user.id, 'При повторном запросе можно сразу забивать день недели.\nЕсли это только знакомство стоит прописать команду /start для знакомтсва с ботом');
+		bot.send_message(message.from_user.id, 'При повторном запросе можно сразу забивать день недели.\nЕсли это только знакомство стоит прописать команду /start для знакомства с ботом');
 	elif message.text == '/start':
 		bot.send_message(message.from_user.id, 'Для работы с ботом поприветствую его!\n(Привет, привет, салам, хай)');
 
 @bot.message_handler(content_types=['text'])
 def start(message):
-	if message.text == 'привет' or message.text == 'Привет':
+	if message.text == 'привет' or message.text == 'Привет' or message.text == 'салам' or message.text == 'хай':
 		keyboard = types.InlineKeyboardMarkup(); #наша клавиатура
 		key_yes = types.InlineKeyboardButton(text='Да', callback_data='yes'); #кнопка «Да»
 		keyboard.add(key_yes); #добавляем кнопку в клавиатуру
