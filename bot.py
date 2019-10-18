@@ -15,12 +15,14 @@ d = ["[8:00] Основы цифровой миклоэлектронники(А
 token = os.environ.get('bot_token')
 bot = telebot.TeleBot(str(token));
 
-@bot.message_handler(commands=['start', 'help'])
+@bot.message_handler(commands=['start', 'help', 'papa'])
 def start_1(message):
 	if message.text == '/help':
 		bot.send_message(message.from_user.id, 'При повторном запросе можно сразу забивать день недели.\nЕсли это только знакомство стоит прописать команду /start для знакомства с ботом');
 	elif message.text == '/start':
 		bot.send_message(message.from_user.id, 'Для работы с ботом поприветствую его!\n(Привет, привет, салам, хай)');
+	elif message.text == '/papa':
+		bot.send_message(message.from_user.id, 'Папа этого бота студент группы ИС-1705\nБарков Вадим');
 
 @bot.message_handler(content_types=['text'])
 def start(message):
@@ -35,7 +37,7 @@ def start(message):
 	elif message.text == 'понедельник' or message.text == "Понедельник":
 		bot.send_message(message.from_user.id, a)
 	elif message.text == 'Кто создатель?' or message.text == "кто создатель?":
-		bot.send_message(message.from_user.id, "Создатель этого бота студент группы ИС-1705\nБарков Вадим")
+		bot.send_message(message.from_user.id, "Для того, чтоб узнать создателя бота - воспользуйтесь командой /papa ")
 	elif message.text == 'вторник' or message.text == "Вторник":
 		bot.send_message(message.from_user.id, b)
 	elif message.text == 'среда' or message.text == "Среда":
