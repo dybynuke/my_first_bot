@@ -4,7 +4,7 @@ import telebot
 import os
 from telebot import types
 
-a = "[8:00 - 10:50] Программирование в MS SQL (б)\nhttps://us04web.zoom.us/j/8636724102 \n[11:00 - 11:50] Кураторский час \nhttps://us04web.zoom.us/j/7542077646 \n[12:00 - 13:50] Компьютерное и математическое моделирование \nhttps://us04web.zoom.us/j/9088718956 \n[14:00 - 16:50] Компьютерное и математическое моделирование(а) \nhttps://us04web.zoom.us/j/4274209111"
+a = "[14:00 - 15:50] Интеллектульные информационные системы и базы знаний(л)\n https://us04web.zoom.us/j/6467674915?pwd=SmNYaUlBMGVTMlJ2ZVdsOTgvcG1yZz09"
 
 b = "[9:00 - 11:50] Компьютерное и математическое моделирование(б)\nhttps://us04web.zoom.us/j/4274209111\n[12:00 - 14:50] Программирование в MS SQL\nhttps://us04web.zoom.us/j/4349470836\n[15:00 - 17:50] Программирование в MS SQL (a)\nhttps://us04web.zoom.us/j/8636724102"
 
