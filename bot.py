@@ -6,9 +6,9 @@ from telebot import types
 
 a = "[14:00 - 15:50] Интеллектульные информационные системы и базы знаний(л)\nhttps://us04web.zoom.us/j/6467674915?pwd=SmNYaUlBMGVTMlJ2ZVdsOTgvcG1yZz09\n[16:00 - 18:50] Кроссплатформенная разработка мобильных приложений (Б)\nhttps://us04web.zoom.us/j/5149248980?pwd=UFVyd3FjVnNEQ3BURkJSU3FrdWJxUT09"
 
-b = "[11:00 - 13:50] Администрирование систем и сетей\nhttps://us04web.zoom.us/j/7621644476?pwd=d3daRUdJUml5WkFlcUErVytKZEczZz09\n[14:00 - 15:50] Распределенные информационные системы\nhttps://us04web.zoom.us/j/5900790741?pwd=NkZrUFJ0QXFQVUpERjN2Z1IyN2FwZz09"
+b = "[11:00 - 13:50] Администрирование систем и сетей(лз)\nhttps://us04web.zoom.us/j/7621644476?pwd=d3daRUdJUml5WkFlcUErVytKZEczZz09\n[14:00 - 15:50] Распределенные информационные системы\nhttps://us04web.zoom.us/j/5900790741?pwd=NkZrUFJ0QXFQVUpERjN2Z1IyN2FwZz09"
 
-c = "[10:00 - 11:50] Программирование в MS SQL (б)\nhttps://us04web.zoom.us/j/8636724102\n[12:00 - 14:50] Информационнные системы предприятия\nhttps://us04web.zoom.us/j/8635475529\n[15:00 - 16:50]Программирование в MS SQL (а)\nhttps://us04web.zoom.us/j/8636724102"
+c = "[14:00 - 15:50] Администрирование систем и сетей(л)\nhttps://us04web.zoom.us/j/4900991578?pwd=OTU0bnZoMTJia1pSN1ZESXZvMzNxQT09\n"
 
 d = "[8:00 - 9:50] Программирование в MS SQL (б)\nhttps://us04web.zoom.us/j/8636724102\n[10:00 - 11:50] Информационнные системы предприятия\nhttps://us04web.zoom.us/j/8635475529\n[12:00 - 13:50]Программирование в MS SQL (а)\nhttps://us04web.zoom.us/j/8636724102"
 
