@@ -12,7 +12,7 @@ c = "[14:00 - 15:50] Администрирование систем и сете
 
 d = "[10:00 - 11:50] Кроссплатформенная разработка мобильных приложений (л)\nhttps://us04web.zoom.us/j/5149248980?pwd=UFVyd3FjVnNEQ3BURkJSU3FrdWJxUT09"
 
-e = "[пятница]"
+e = "[8:00 - 10:50] Распределенные информационные системы(п)\nhttps://us04web.zoom.us/j/2562042380?pwd=U1paTUdEdWtza3A0ZDZnT0cwaHNmdz09"
 
 token = os.environ.get('bot_token');
 bot = telebot.TeleBot(str(token));
