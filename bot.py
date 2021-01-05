@@ -4,15 +4,15 @@ import telebot
 import os
 from telebot import types
 
-a = "[12:00 - 13:50] Комплексное обеспечение безопасности инормационных систем(л)\nhttps://us04web.zoom.us/j/5900790741\n[14:00 - 16:50] Кроссплатформенная разработка мобильных приложений(А)\nhttps://us04web.zoom.us/j/2412177647\n[14:00 - 16:50] Oracle Database 11 g администрирование(Б)\nhttps://us04web.zoom.us/j/7621644476"
+a = "[12:00 - 13:50] Комплексное обеспечение безопасности инормационных систем(л)\nhttps://us04web.zoom.us/j/5900790741\n[14:00 - 16:50] Кроссплатформенная разработка мобильных приложений(А)\nhttps://us04web.zoom.us/j/2412177647?pwd=N0RhNmJWRThobkQ5KzVxVlUzdUZiUT09\n[14:00 - 16:50] Oracle Database 11 g администрирование(Б)\nhttps://us04web.zoom.us/j/7621644476"
 
 b = "[10:00 - 11:50] Oracle Database 11 g администрирование(л)\nhttps://us04web.zoom.us/j/2412177647?pwd=N0RhNmJWRThobkQ5KzVxVlUzdUZiUT09\n[12:00 - 12:50] Комплексное обеспечение безопасности инормационных систем(спз)\nhttps://us04web.zoom.us/j/9115674856?pwd=dUxiSWZYUnRFMjI4cnIvSE13UEZ4dz09"
 
-c = "[12:00 - 13:50] Кроссплатформенная разработка мобильных приложений(л)\nhttps://us04web.zoom.us/j/2412177647\n[14:00 - 15:50] Комплексное обеспечение безопасности инормационных систем(спз)\nhttps://us04web.zoom.us/j/9115674856"
+c = "[12:00 - 13:50] Кроссплатформенная разработка мобильных приложений(л)\nhttps://us04web.zoom.us/j/2412177647?pwd=N0RhNmJWRThobkQ5KzVxVlUzdUZiUT09\n[14:00 - 15:50] Комплексное обеспечение безопасности инормационных систем(спз)\nhttps://us04web.zoom.us/j/9115674856?pwd=dUxiSWZYUnRFMjI4cnIvSE13UEZ4dz09"
 
 d = "[10:00 - 12:50] Методика научных исследований(спз)\nhttps://us04web.zoom.us/j/4313587454"
 
-e = "[11:00 - 13:50] Oracle Database 11 g администрирование(А)\nhttps://us04web.zoom.us/j/7621644476\n[11:00 - 13:50] Кроссплатформенная разработка мобильных приложений(Б)\nhttps://us04web.zoom.us/j/2412177647\n[14:00 - 15:50] Методика научных исследований(л)\nhttps://us04web.zoom.us/j/5514039723"
+e = "[11:00 - 13:50] Oracle Database 11 g администрирование(А)\nhttps://us04web.zoom.us/j/7621644476\n[11:00 - 13:50] Кроссплатформенная разработка мобильных приложений(Б)\nhttps://us04web.zoom.us/j/2412177647?pwd=N0RhNmJWRThobkQ5KzVxVlUzdUZiUT09\n[14:00 - 15:50] Методика научных исследований(л)\nhttps://us04web.zoom.us/j/5514039723"
 
 token = os.environ.get('bot_token');
 bot = telebot.TeleBot(str(token));
