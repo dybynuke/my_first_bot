@@ -4,7 +4,7 @@ import telebot
 import os
 from telebot import types
 
-a = "[12:00 - 13:50] Комплексное обеспечение безопасности инормационных систем(л)\nhttps://us04web.zoom.us/j/5900790741?pwd=NkZrUFJ0QXFQVUpERjN2Z1IyN2FwZz09\n[14:00 - 16:50] Кроссплатформенная разработка мобильных приложений(А)\nhttps://us04web.zoom.us/j/2412177647?pwd=N0RhNmJWRThobkQ5KzVxVlUzdUZiUT09\n[14:00 - 16:50] Oracle Database 11 g администрирование(Б)\nhttps://us04web.zoom.us/j/7621644476"
+a = "[12:00 - 13:50] Комплексное обеспечение безопасности инормационных систем(л)\nhttps://us04web.zoom.us/j/5900790741?pwd=NkZrUFJ0QXFQVUpERjN2Z1IyN2FwZz09\n[14:00 - 16:50] Кроссплатформенная разработка мобильных приложений(А)\nhttps://us04web.zoom.us/j/2412177647?pwd=N0RhNmJWRThobkQ5KzVxVlUzdUZiUT09\n[14:00 - 16:50] Oracle Database 11 g администрирование(Б)\nhttps://us04web.zoom.us/j/7621644476?pwd=d3daRUdJUml5WkFlcUErVytKZEczZz09"
 
 b = "[10:00 - 11:50] Oracle Database 11 g администрирование(л)\nhttps://us04web.zoom.us/j/2412177647?pwd=N0RhNmJWRThobkQ5KzVxVlUzdUZiUT09\n[12:00 - 12:50] Комплексное обеспечение безопасности инормационных систем(спз)\nhttps://us04web.zoom.us/j/9115674856?pwd=dUxiSWZYUnRFMjI4cnIvSE13UEZ4dz09"
 
